@@ -1,5 +1,10 @@
+#!/bin/bash
+
+# Load Nextcloud Path
+source /mnt/e/git/eskopp/BASHExtension/nextcloud_path.sh
+
 # YT-DLP settings
-export YT_DLP_ROOT="/mnt/e/erik/Media/YouTube/"
+export YT_DLP_ROOT=$NEXTCLOUD_ROOT"Media/YouTube/"
 
 # YT-DLP Flags
 export YT_DLP_PLAYLIST=$YT_DLP_ROOT
